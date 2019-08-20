@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DAA07AA230C6E7500B27D8A /* doghero_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07A9230C6E7500B27D8A /* doghero_testTests.swift */; };
+		6DAA07B2230C6E8600B27D8A /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07B1230C6E8600B27D8A /* UseCase.swift */; };
+		6DAA07B7230C6F0D00B27D8A /* ListMyHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07B6230C6F0D00B27D8A /* ListMyHeroes.swift */; };
+		6DAA07B8230C6F0D00B27D8A /* ListMyHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07B6230C6F0D00B27D8A /* ListMyHeroes.swift */; };
+		6DAA07B9230C6F1000B27D8A /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07B1230C6E8600B27D8A /* UseCase.swift */; };
+		6DAA07BB230C6F1600B27D8A /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07BA230C6F1600B27D8A /* Host.swift */; };
+		6DAA07BC230C6F1600B27D8A /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07BA230C6F1600B27D8A /* Host.swift */; };
+		6DAA07BE230C6F1B00B27D8A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07BD230C6F1B00B27D8A /* User.swift */; };
+		6DAA07BF230C6F1B00B27D8A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07BD230C6F1B00B27D8A /* User.swift */; };
+		6DAA07E0230C7BBB00B27D8A /* ObtainMyHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07DF230C7BBB00B27D8A /* ObtainMyHeroes.swift */; };
+		6DAA07E1230C7BBB00B27D8A /* ObtainMyHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07DF230C7BBB00B27D8A /* ObtainMyHeroes.swift */; };
+		6DAA07E3230C7BC200B27D8A /* MyHeroesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07E2230C7BC200B27D8A /* MyHeroesProvider.swift */; };
+		6DAA07E4230C7BC200B27D8A /* MyHeroesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07E2230C7BC200B27D8A /* MyHeroesProvider.swift */; };
+		6DAA07E6230C7BC900B27D8A /* MyHeroesProviderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07E5230C7BC900B27D8A /* MyHeroesProviderError.swift */; };
+		6DAA07E7230C7BC900B27D8A /* MyHeroesProviderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07E5230C7BC900B27D8A /* MyHeroesProviderError.swift */; };
+		6DAA07E9230C7BD000B27D8A /* MyHeroesReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07E8230C7BD000B27D8A /* MyHeroesReceiver.swift */; };
+		6DAA07EA230C7BD000B27D8A /* MyHeroesReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07E8230C7BD000B27D8A /* MyHeroesReceiver.swift */; };
+		6DAA07F6230C840800B27D8A /* JSONParserGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07F5230C840800B27D8A /* JSONParserGeneric.swift */; };
+		6DAA07F7230C840800B27D8A /* JSONParserGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07F5230C840800B27D8A /* JSONParserGeneric.swift */; };
+		6DAA07F9230C841D00B27D8A /* JSONParserGenericError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07F8230C841D00B27D8A /* JSONParserGenericError.swift */; };
+		6DAA07FA230C841D00B27D8A /* JSONParserGenericError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07F8230C841D00B27D8A /* JSONParserGenericError.swift */; };
+		6DAA07FB230C8D1300B27D8A /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A259F1A1201CF76400B5164F /* JSONParser.swift */; };
+		6DAA07FC230C8D1600B27D8A /* MyHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A259F19F201CF6EA00B5164F /* MyHeroes.swift */; };
+		6DAA07FF230C924300B27D8A /* ListMyHerosTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07FD230C924300B27D8A /* ListMyHerosTestData.swift */; };
+		6DAA0802230CA16400B27D8A /* ObtainMyHeroesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA0801230CA16400B27D8A /* ObtainMyHeroesTest.swift */; };
+		6DAA0805230CA17400B27D8A /* MyHeroesProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA0803230CA17400B27D8A /* MyHeroesProviderMock.swift */; };
+		6DAA0808230CA18300B27D8A /* MyHeroesProviderMockFailure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA0806230CA18300B27D8A /* MyHeroesProviderMockFailure.swift */; };
+		6DAA080B230CA18F00B27D8A /* MyHeroesReceiverMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA0809230CA18F00B27D8A /* MyHeroesReceiverMock.swift */; };
 		A259F18A201CF66900B5164F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A259F189201CF66900B5164F /* AppDelegate.swift */; };
 		A259F18C201CF66900B5164F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A259F18B201CF66900B5164F /* ViewController.swift */; };
 		A259F18F201CF66900B5164F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A259F18D201CF66900B5164F /* Main.storyboard */; };
@@ -17,7 +45,35 @@
 		A259F1A2201CF76400B5164F /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A259F1A1201CF76400B5164F /* JSONParser.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6DAA07AC230C6E7500B27D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A259F17E201CF66900B5164F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A259F185201CF66900B5164F;
+			remoteInfo = "doghero-test";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		6DAA07A7230C6E7500B27D8A /* doghero-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doghero-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAA07A9230C6E7500B27D8A /* doghero_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doghero_testTests.swift; sourceTree = "<group>"; };
+		6DAA07AB230C6E7500B27D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DAA07B1230C6E8600B27D8A /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
+		6DAA07B6230C6F0D00B27D8A /* ListMyHeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMyHeroes.swift; sourceTree = "<group>"; };
+		6DAA07BA230C6F1600B27D8A /* Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		6DAA07BD230C6F1B00B27D8A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6DAA07DF230C7BBB00B27D8A /* ObtainMyHeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObtainMyHeroes.swift; sourceTree = "<group>"; };
+		6DAA07E2230C7BC200B27D8A /* MyHeroesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeroesProvider.swift; sourceTree = "<group>"; };
+		6DAA07E5230C7BC900B27D8A /* MyHeroesProviderError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeroesProviderError.swift; sourceTree = "<group>"; };
+		6DAA07E8230C7BD000B27D8A /* MyHeroesReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeroesReceiver.swift; sourceTree = "<group>"; };
+		6DAA07F5230C840800B27D8A /* JSONParserGeneric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParserGeneric.swift; sourceTree = "<group>"; };
+		6DAA07F8230C841D00B27D8A /* JSONParserGenericError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParserGenericError.swift; sourceTree = "<group>"; };
+		6DAA07FD230C924300B27D8A /* ListMyHerosTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMyHerosTestData.swift; sourceTree = "<group>"; };
+		6DAA0801230CA16400B27D8A /* ObtainMyHeroesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObtainMyHeroesTest.swift; sourceTree = "<group>"; };
+		6DAA0803230CA17400B27D8A /* MyHeroesProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeroesProviderMock.swift; sourceTree = "<group>"; };
+		6DAA0806230CA18300B27D8A /* MyHeroesProviderMockFailure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeroesProviderMockFailure.swift; sourceTree = "<group>"; };
+		6DAA0809230CA18F00B27D8A /* MyHeroesReceiverMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeroesReceiverMock.swift; sourceTree = "<group>"; };
 		A259F186201CF66900B5164F /* doghero-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doghero-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A259F189201CF66900B5164F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A259F18B201CF66900B5164F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +87,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6DAA07A4230C6E7500B27D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A259F183201CF66900B5164F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +104,172 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DAA079B230C6D7900B27D8A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A259F19B201CF69100B5164F /* Extensions */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		6DAA079C230C6D7B00B27D8A /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				A259F19E201CF6D000B5164F /* Api Answer */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		6DAA079D230C6D7C00B27D8A /* Boundary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Boundary;
+			sourceTree = "<group>";
+		};
+		6DAA079E230C6D7D00B27D8A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA07A1230C6E0500B27D8A /* Shared */,
+				6DAA07A0230C6E0100B27D8A /* MyHeroes */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6DAA079F230C6D9900B27D8A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A259F189201CF66900B5164F /* AppDelegate.swift */,
+				A259F18B201CF66900B5164F /* ViewController.swift */,
+				A259F18D201CF66900B5164F /* Main.storyboard */,
+				A259F190201CF66900B5164F /* Assets.xcassets */,
+				A259F192201CF66900B5164F /* LaunchScreen.storyboard */,
+				A259F195201CF66900B5164F /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6DAA07A0230C6E0100B27D8A /* MyHeroes */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA07B5230C6EE900B27D8A /* Model */,
+				6DAA07DC230C7B5D00B27D8A /* HeroesSummary */,
+			);
+			path = MyHeroes;
+			sourceTree = "<group>";
+		};
+		6DAA07A1230C6E0500B27D8A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA07B1230C6E8600B27D8A /* UseCase.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6DAA07A8230C6E7500B27D8A /* doghero-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA07EB230C807000B27D8A /* Core */,
+				6DAA07A9230C6E7500B27D8A /* doghero_testTests.swift */,
+				6DAA07AB230C6E7500B27D8A /* Info.plist */,
+			);
+			path = "doghero-testTests";
+			sourceTree = "<group>";
+		};
+		6DAA07B5230C6EE900B27D8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA07B6230C6F0D00B27D8A /* ListMyHeroes.swift */,
+				6DAA07BA230C6F1600B27D8A /* Host.swift */,
+				6DAA07BD230C6F1B00B27D8A /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DAA07DC230C7B5D00B27D8A /* HeroesSummary */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA07DD230C7B6C00B27D8A /* UseCase */,
+			);
+			path = HeroesSummary;
+			sourceTree = "<group>";
+		};
+		6DAA07DD230C7B6C00B27D8A /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA07DE230C7B7400B27D8A /* ObtainMyHeroes */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		6DAA07DE230C7B7400B27D8A /* ObtainMyHeroes */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA07DF230C7BBB00B27D8A /* ObtainMyHeroes.swift */,
+				6DAA07E2230C7BC200B27D8A /* MyHeroesProvider.swift */,
+				6DAA07E5230C7BC900B27D8A /* MyHeroesProviderError.swift */,
+				6DAA07E8230C7BD000B27D8A /* MyHeroesReceiver.swift */,
+			);
+			path = ObtainMyHeroes;
+			sourceTree = "<group>";
+		};
+		6DAA07EB230C807000B27D8A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA07ED230C807700B27D8A /* Shared */,
+				6DAA07EC230C807400B27D8A /* MyHeros */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6DAA07EC230C807400B27D8A /* MyHeros */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA07F0230C809200B27D8A /* Model */,
+				6DAA07EF230C809100B27D8A /* HeroesSummary */,
+			);
+			path = MyHeros;
+			sourceTree = "<group>";
+		};
+		6DAA07ED230C807700B27D8A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6DAA07EF230C809100B27D8A /* HeroesSummary */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA0800230C92EB00B27D8A /* UseCase */,
+			);
+			path = HeroesSummary;
+			sourceTree = "<group>";
+		};
+		6DAA07F0230C809200B27D8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA07FD230C924300B27D8A /* ListMyHerosTestData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DAA0800230C92EB00B27D8A /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA0801230CA16400B27D8A /* ObtainMyHeroesTest.swift */,
+				6DAA0803230CA17400B27D8A /* MyHeroesProviderMock.swift */,
+				6DAA0806230CA18300B27D8A /* MyHeroesProviderMockFailure.swift */,
+				6DAA0809230CA18F00B27D8A /* MyHeroesReceiverMock.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
 		A259F17D201CF66900B5164F = {
 			isa = PBXGroup;
 			children = (
 				A259F188201CF66900B5164F /* doghero-test */,
+				6DAA07A8230C6E7500B27D8A /* doghero-testTests */,
 				A259F187201CF66900B5164F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				A259F186201CF66900B5164F /* doghero-test.app */,
+				6DAA07A7230C6E7500B27D8A /* doghero-testTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,14 +286,11 @@
 		A259F188201CF66900B5164F /* doghero-test */ = {
 			isa = PBXGroup;
 			children = (
-				A259F19E201CF6D000B5164F /* Api Answer */,
-				A259F19B201CF69100B5164F /* Extensions */,
-				A259F189201CF66900B5164F /* AppDelegate.swift */,
-				A259F18B201CF66900B5164F /* ViewController.swift */,
-				A259F18D201CF66900B5164F /* Main.storyboard */,
-				A259F190201CF66900B5164F /* Assets.xcassets */,
-				A259F192201CF66900B5164F /* LaunchScreen.storyboard */,
-				A259F195201CF66900B5164F /* Info.plist */,
+				6DAA079F230C6D9900B27D8A /* Sources */,
+				6DAA079E230C6D7D00B27D8A /* Core */,
+				6DAA079D230C6D7C00B27D8A /* Boundary */,
+				6DAA079C230C6D7B00B27D8A /* Infrastructure */,
+				6DAA079B230C6D7900B27D8A /* Presentation */,
 			);
 			path = "doghero-test";
 			sourceTree = "<group>";
@@ -85,6 +308,8 @@
 			children = (
 				A259F19F201CF6EA00B5164F /* MyHeroes.swift */,
 				A259F1A1201CF76400B5164F /* JSONParser.swift */,
+				6DAA07F5230C840800B27D8A /* JSONParserGeneric.swift */,
+				6DAA07F8230C841D00B27D8A /* JSONParserGenericError.swift */,
 			);
 			path = "Api Answer";
 			sourceTree = "<group>";
@@ -92,6 +317,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6DAA07A6230C6E7500B27D8A /* doghero-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DAA07AE230C6E7500B27D8A /* Build configuration list for PBXNativeTarget "doghero-testTests" */;
+			buildPhases = (
+				6DAA07A3230C6E7500B27D8A /* Sources */,
+				6DAA07A4230C6E7500B27D8A /* Frameworks */,
+				6DAA07A5230C6E7500B27D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DAA07AD230C6E7500B27D8A /* PBXTargetDependency */,
+			);
+			name = "doghero-testTests";
+			productName = "doghero-testTests";
+			productReference = 6DAA07A7230C6E7500B27D8A /* doghero-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A259F185201CF66900B5164F /* doghero-test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A259F198201CF66900B5164F /* Build configuration list for PBXNativeTarget "doghero-test" */;
@@ -115,10 +358,15 @@
 		A259F17E201CF66900B5164F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = doghero;
 				TargetAttributes = {
+					6DAA07A6230C6E7500B27D8A = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A259F185201CF66900B5164F;
+					};
 					A259F185201CF66900B5164F = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -139,11 +387,19 @@
 			projectRoot = "";
 			targets = (
 				A259F185201CF66900B5164F /* doghero-test */,
+				6DAA07A6230C6E7500B27D8A /* doghero-testTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6DAA07A5230C6E7500B27D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A259F184201CF66900B5164F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,19 +413,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6DAA07A3230C6E7500B27D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAA07E7230C7BC900B27D8A /* MyHeroesProviderError.swift in Sources */,
+				6DAA07FB230C8D1300B27D8A /* JSONParser.swift in Sources */,
+				6DAA080B230CA18F00B27D8A /* MyHeroesReceiverMock.swift in Sources */,
+				6DAA0808230CA18300B27D8A /* MyHeroesProviderMockFailure.swift in Sources */,
+				6DAA07F7230C840800B27D8A /* JSONParserGeneric.swift in Sources */,
+				6DAA07B9230C6F1000B27D8A /* UseCase.swift in Sources */,
+				6DAA07E4230C7BC200B27D8A /* MyHeroesProvider.swift in Sources */,
+				6DAA0802230CA16400B27D8A /* ObtainMyHeroesTest.swift in Sources */,
+				6DAA0805230CA17400B27D8A /* MyHeroesProviderMock.swift in Sources */,
+				6DAA07AA230C6E7500B27D8A /* doghero_testTests.swift in Sources */,
+				6DAA07FA230C841D00B27D8A /* JSONParserGenericError.swift in Sources */,
+				6DAA07B8230C6F0D00B27D8A /* ListMyHeroes.swift in Sources */,
+				6DAA07E1230C7BBB00B27D8A /* ObtainMyHeroes.swift in Sources */,
+				6DAA07BF230C6F1B00B27D8A /* User.swift in Sources */,
+				6DAA07FC230C8D1600B27D8A /* MyHeroes.swift in Sources */,
+				6DAA07FF230C924300B27D8A /* ListMyHerosTestData.swift in Sources */,
+				6DAA07BC230C6F1600B27D8A /* Host.swift in Sources */,
+				6DAA07EA230C7BD000B27D8A /* MyHeroesReceiver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A259F182201CF66900B5164F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DAA07E3230C7BC200B27D8A /* MyHeroesProvider.swift in Sources */,
 				A259F19D201CF69F00B5164F /* UIImage.swift in Sources */,
 				A259F1A2201CF76400B5164F /* JSONParser.swift in Sources */,
+				6DAA07E0230C7BBB00B27D8A /* ObtainMyHeroes.swift in Sources */,
+				6DAA07F6230C840800B27D8A /* JSONParserGeneric.swift in Sources */,
 				A259F1A0201CF6EA00B5164F /* MyHeroes.swift in Sources */,
+				6DAA07BB230C6F1600B27D8A /* Host.swift in Sources */,
+				6DAA07B2230C6E8600B27D8A /* UseCase.swift in Sources */,
+				6DAA07BE230C6F1B00B27D8A /* User.swift in Sources */,
+				6DAA07E9230C7BD000B27D8A /* MyHeroesReceiver.swift in Sources */,
 				A259F18C201CF66900B5164F /* ViewController.swift in Sources */,
+				6DAA07F9230C841D00B27D8A /* JSONParserGenericError.swift in Sources */,
+				6DAA07E6230C7BC900B27D8A /* MyHeroesProviderError.swift in Sources */,
+				6DAA07B7230C6F0D00B27D8A /* ListMyHeroes.swift in Sources */,
 				A259F18A201CF66900B5164F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DAA07AD230C6E7500B27D8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A259F185201CF66900B5164F /* doghero-test */;
+			targetProxy = 6DAA07AC230C6E7500B27D8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A259F18D201CF66900B5164F /* Main.storyboard */ = {
@@ -191,6 +490,49 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6DAA07AF230C6E7500B27D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = "doghero-testTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.rmdevwork.doghero-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doghero-test.app/doghero-test";
+			};
+			name = Debug;
+		};
+		6DAA07B0230C6E7500B27D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = "doghero-testTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.rmdevwork.doghero-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doghero-test.app/doghero-test";
+			};
+			name = Release;
+		};
 		A259F196201CF66900B5164F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -303,7 +645,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "doghero-test/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/doghero-test/Sources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.doghero.doghero-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -317,7 +659,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "doghero-test/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/doghero-test/Sources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.doghero.doghero-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -329,6 +671,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6DAA07AE230C6E7500B27D8A /* Build configuration list for PBXNativeTarget "doghero-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAA07AF230C6E7500B27D8A /* Debug */,
+				6DAA07B0230C6E7500B27D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A259F181201CF66900B5164F /* Build configuration list for PBXProject "doghero-test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
