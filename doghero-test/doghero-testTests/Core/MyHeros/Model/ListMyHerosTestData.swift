@@ -1,5 +1,6 @@
 extension ListMyHeroes {
     static var validListMyHeroes: ListMyHeroes? {
-        return MyHeroes.apiMyHeroes
+        let myHeroes = MyHeroes()
+        return myHeroes.apiMyHeroes
     }
 }

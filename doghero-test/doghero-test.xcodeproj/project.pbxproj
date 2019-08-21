@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6DAA07AA230C6E7500B27D8A /* doghero_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07A9230C6E7500B27D8A /* doghero_testTests.swift */; };
 		6DAA07B2230C6E8600B27D8A /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07B1230C6E8600B27D8A /* UseCase.swift */; };
 		6DAA07B7230C6F0D00B27D8A /* ListMyHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07B6230C6F0D00B27D8A /* ListMyHeroes.swift */; };
 		6DAA07B8230C6F0D00B27D8A /* ListMyHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA07B6230C6F0D00B27D8A /* ListMyHeroes.swift */; };
@@ -35,6 +34,16 @@
 		6DAA0805230CA17400B27D8A /* MyHeroesProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA0803230CA17400B27D8A /* MyHeroesProviderMock.swift */; };
 		6DAA0808230CA18300B27D8A /* MyHeroesProviderMockFailure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA0806230CA18300B27D8A /* MyHeroesProviderMockFailure.swift */; };
 		6DAA080B230CA18F00B27D8A /* MyHeroesReceiverMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA0809230CA18F00B27D8A /* MyHeroesReceiverMock.swift */; };
+		6DAA0811230CD2E900B27D8A /* DefaultHeroesSummaryMockProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA0810230CD2E900B27D8A /* DefaultHeroesSummaryMockProvider.swift */; };
+		6DAA0812230CD2E900B27D8A /* DefaultHeroesSummaryMockProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA0810230CD2E900B27D8A /* DefaultHeroesSummaryMockProvider.swift */; };
+		6DAA081D230CDA7300B27D8A /* MyHeroesAPIMockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA081C230CDA7300B27D8A /* MyHeroesAPIMockable.swift */; };
+		6DAA081E230CDA7300B27D8A /* MyHeroesAPIMockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA081C230CDA7300B27D8A /* MyHeroesAPIMockable.swift */; };
+		6DAA0825230CDB3D00B27D8A /* DefaultListMyHeroesSummaryExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA0824230CDB3D00B27D8A /* DefaultListMyHeroesSummaryExecutor.swift */; };
+		6DAA0826230CDB3D00B27D8A /* DefaultListMyHeroesSummaryExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA0824230CDB3D00B27D8A /* DefaultListMyHeroesSummaryExecutor.swift */; };
+		6DAA0828230CDB4C00B27D8A /* ObtainListMyHeroesSummaryExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA0827230CDB4C00B27D8A /* ObtainListMyHeroesSummaryExecutor.swift */; };
+		6DAA0829230CDB4C00B27D8A /* ObtainListMyHeroesSummaryExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA0827230CDB4C00B27D8A /* ObtainListMyHeroesSummaryExecutor.swift */; };
+		6DAA082B230CDB5B00B27D8A /* ObtainListMyHeroesSummaryExecutorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA082A230CDB5B00B27D8A /* ObtainListMyHeroesSummaryExecutorError.swift */; };
+		6DAA082C230CDB5B00B27D8A /* ObtainListMyHeroesSummaryExecutorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA082A230CDB5B00B27D8A /* ObtainListMyHeroesSummaryExecutorError.swift */; };
 		A259F18A201CF66900B5164F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A259F189201CF66900B5164F /* AppDelegate.swift */; };
 		A259F18C201CF66900B5164F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A259F18B201CF66900B5164F /* ViewController.swift */; };
 		A259F18F201CF66900B5164F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A259F18D201CF66900B5164F /* Main.storyboard */; };
@@ -57,7 +66,6 @@
 
 /* Begin PBXFileReference section */
 		6DAA07A7230C6E7500B27D8A /* doghero-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doghero-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DAA07A9230C6E7500B27D8A /* doghero_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doghero_testTests.swift; sourceTree = "<group>"; };
 		6DAA07AB230C6E7500B27D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DAA07B1230C6E8600B27D8A /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
 		6DAA07B6230C6F0D00B27D8A /* ListMyHeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMyHeroes.swift; sourceTree = "<group>"; };
@@ -74,6 +82,11 @@
 		6DAA0803230CA17400B27D8A /* MyHeroesProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeroesProviderMock.swift; sourceTree = "<group>"; };
 		6DAA0806230CA18300B27D8A /* MyHeroesProviderMockFailure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeroesProviderMockFailure.swift; sourceTree = "<group>"; };
 		6DAA0809230CA18F00B27D8A /* MyHeroesReceiverMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeroesReceiverMock.swift; sourceTree = "<group>"; };
+		6DAA0810230CD2E900B27D8A /* DefaultHeroesSummaryMockProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultHeroesSummaryMockProvider.swift; sourceTree = "<group>"; };
+		6DAA081C230CDA7300B27D8A /* MyHeroesAPIMockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeroesAPIMockable.swift; sourceTree = "<group>"; };
+		6DAA0824230CDB3D00B27D8A /* DefaultListMyHeroesSummaryExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultListMyHeroesSummaryExecutor.swift; sourceTree = "<group>"; };
+		6DAA0827230CDB4C00B27D8A /* ObtainListMyHeroesSummaryExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObtainListMyHeroesSummaryExecutor.swift; sourceTree = "<group>"; };
+		6DAA082A230CDB5B00B27D8A /* ObtainListMyHeroesSummaryExecutorError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObtainListMyHeroesSummaryExecutorError.swift; sourceTree = "<group>"; };
 		A259F186201CF66900B5164F /* doghero-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doghero-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A259F189201CF66900B5164F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A259F18B201CF66900B5164F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,7 +128,8 @@
 		6DAA079C230C6D7B00B27D8A /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
-				A259F19E201CF6D000B5164F /* Api Answer */,
+				6DAA080C230CD23100B27D8A /* Mock */,
+				6DAA080D230CD25C00B27D8A /* HeroesSummary */,
 			);
 			path = Infrastructure;
 			sourceTree = "<group>";
@@ -123,6 +137,7 @@
 		6DAA079D230C6D7C00B27D8A /* Boundary */ = {
 			isa = PBXGroup;
 			children = (
+				6DAA0822230CDAF800B27D8A /* HeroesSummary */,
 			);
 			path = Boundary;
 			sourceTree = "<group>";
@@ -170,7 +185,6 @@
 			isa = PBXGroup;
 			children = (
 				6DAA07EB230C807000B27D8A /* Core */,
-				6DAA07A9230C6E7500B27D8A /* doghero_testTests.swift */,
 				6DAA07AB230C6E7500B27D8A /* Info.plist */,
 			);
 			path = "doghero-testTests";
@@ -216,7 +230,6 @@
 		6DAA07EB230C807000B27D8A /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				6DAA07ED230C807700B27D8A /* Shared */,
 				6DAA07EC230C807400B27D8A /* MyHeros */,
 			);
 			path = Core;
@@ -229,13 +242,6 @@
 				6DAA07EF230C809100B27D8A /* HeroesSummary */,
 			);
 			path = MyHeros;
-			sourceTree = "<group>";
-		};
-		6DAA07ED230C807700B27D8A /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		6DAA07EF230C809100B27D8A /* HeroesSummary */ = {
@@ -263,6 +269,56 @@
 				6DAA0809230CA18F00B27D8A /* MyHeroesReceiverMock.swift */,
 			);
 			path = UseCase;
+			sourceTree = "<group>";
+		};
+		6DAA080C230CD23100B27D8A /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				A259F19E201CF6D000B5164F /* Api Answer */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		6DAA080D230CD25C00B27D8A /* HeroesSummary */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA080E230CD26E00B27D8A /* Mock */,
+			);
+			path = HeroesSummary;
+			sourceTree = "<group>";
+		};
+		6DAA080E230CD26E00B27D8A /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA080F230CD27500B27D8A /* ObtainMyHeroes */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		6DAA080F230CD27500B27D8A /* ObtainMyHeroes */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA0810230CD2E900B27D8A /* DefaultHeroesSummaryMockProvider.swift */,
+			);
+			path = ObtainMyHeroes;
+			sourceTree = "<group>";
+		};
+		6DAA0822230CDAF800B27D8A /* HeroesSummary */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA0823230CDB0600B27D8A /* ObtainMyHeroes */,
+			);
+			path = HeroesSummary;
+			sourceTree = "<group>";
+		};
+		6DAA0823230CDB0600B27D8A /* ObtainMyHeroes */ = {
+			isa = PBXGroup;
+			children = (
+				6DAA0824230CDB3D00B27D8A /* DefaultListMyHeroesSummaryExecutor.swift */,
+				6DAA0827230CDB4C00B27D8A /* ObtainListMyHeroesSummaryExecutor.swift */,
+				6DAA082A230CDB5B00B27D8A /* ObtainListMyHeroesSummaryExecutorError.swift */,
+			);
+			path = ObtainMyHeroes;
 			sourceTree = "<group>";
 		};
 		A259F17D201CF66900B5164F = {
@@ -307,6 +363,7 @@
 			isa = PBXGroup;
 			children = (
 				A259F19F201CF6EA00B5164F /* MyHeroes.swift */,
+				6DAA081C230CDA7300B27D8A /* MyHeroesAPIMockable.swift */,
 				A259F1A1201CF76400B5164F /* JSONParser.swift */,
 				6DAA07F5230C840800B27D8A /* JSONParserGeneric.swift */,
 				6DAA07F8230C841D00B27D8A /* JSONParserGenericError.swift */,
@@ -418,6 +475,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DAA07E7230C7BC900B27D8A /* MyHeroesProviderError.swift in Sources */,
+				6DAA0826230CDB3D00B27D8A /* DefaultListMyHeroesSummaryExecutor.swift in Sources */,
 				6DAA07FB230C8D1300B27D8A /* JSONParser.swift in Sources */,
 				6DAA080B230CA18F00B27D8A /* MyHeroesReceiverMock.swift in Sources */,
 				6DAA0808230CA18300B27D8A /* MyHeroesProviderMockFailure.swift in Sources */,
@@ -426,8 +484,11 @@
 				6DAA07E4230C7BC200B27D8A /* MyHeroesProvider.swift in Sources */,
 				6DAA0802230CA16400B27D8A /* ObtainMyHeroesTest.swift in Sources */,
 				6DAA0805230CA17400B27D8A /* MyHeroesProviderMock.swift in Sources */,
-				6DAA07AA230C6E7500B27D8A /* doghero_testTests.swift in Sources */,
+				6DAA0812230CD2E900B27D8A /* DefaultHeroesSummaryMockProvider.swift in Sources */,
 				6DAA07FA230C841D00B27D8A /* JSONParserGenericError.swift in Sources */,
+				6DAA0829230CDB4C00B27D8A /* ObtainListMyHeroesSummaryExecutor.swift in Sources */,
+				6DAA082C230CDB5B00B27D8A /* ObtainListMyHeroesSummaryExecutorError.swift in Sources */,
+				6DAA081E230CDA7300B27D8A /* MyHeroesAPIMockable.swift in Sources */,
 				6DAA07B8230C6F0D00B27D8A /* ListMyHeroes.swift in Sources */,
 				6DAA07E1230C7BBB00B27D8A /* ObtainMyHeroes.swift in Sources */,
 				6DAA07BF230C6F1B00B27D8A /* User.swift in Sources */,
@@ -449,14 +510,19 @@
 				6DAA07F6230C840800B27D8A /* JSONParserGeneric.swift in Sources */,
 				A259F1A0201CF6EA00B5164F /* MyHeroes.swift in Sources */,
 				6DAA07BB230C6F1600B27D8A /* Host.swift in Sources */,
+				6DAA082B230CDB5B00B27D8A /* ObtainListMyHeroesSummaryExecutorError.swift in Sources */,
 				6DAA07B2230C6E8600B27D8A /* UseCase.swift in Sources */,
 				6DAA07BE230C6F1B00B27D8A /* User.swift in Sources */,
+				6DAA0825230CDB3D00B27D8A /* DefaultListMyHeroesSummaryExecutor.swift in Sources */,
 				6DAA07E9230C7BD000B27D8A /* MyHeroesReceiver.swift in Sources */,
+				6DAA081D230CDA7300B27D8A /* MyHeroesAPIMockable.swift in Sources */,
 				A259F18C201CF66900B5164F /* ViewController.swift in Sources */,
 				6DAA07F9230C841D00B27D8A /* JSONParserGenericError.swift in Sources */,
 				6DAA07E6230C7BC900B27D8A /* MyHeroesProviderError.swift in Sources */,
+				6DAA0828230CDB4C00B27D8A /* ObtainListMyHeroesSummaryExecutor.swift in Sources */,
 				6DAA07B7230C6F0D00B27D8A /* ListMyHeroes.swift in Sources */,
 				A259F18A201CF66900B5164F /* AppDelegate.swift in Sources */,
+				6DAA0811230CD2E900B27D8A /* DefaultHeroesSummaryMockProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

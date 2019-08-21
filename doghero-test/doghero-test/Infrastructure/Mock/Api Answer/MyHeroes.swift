@@ -18,10 +18,10 @@ class MyHeroes {
     
 }
 
-extension MyHeroes {
-    class var apiMyHeroes: ListMyHeroes? {
+extension MyHeroes: MyHeroesAPIMockable {
+    var apiMyHeroes: ListMyHeroes? {
         do {
-            let myHeroes: ListMyHeroes? = try JSONParser.convert(self.apiReturn)
+            let myHeroes: ListMyHeroes? = try JSONParser.convert(MyHeroes.apiReturn)
             return myHeroes
         } catch {
             print(error.localizedDescription)
