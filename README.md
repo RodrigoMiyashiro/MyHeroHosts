@@ -13,6 +13,7 @@ Aplicativo mostra a lista de anfritriões que já hospderam seus pets ou aqueles
 ### 2 - Arquitetura
 
 ![alt text](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)<br>
+![alt text](https://herbertograca.files.wordpress.com/2018/11/070-explicit-architecture-svg.png)<br>
 De forma bem resumida, está arquitetura foi pensada para criar um aplicativo inspirado no Clean Archicture. <br>
 Contendo um Core, onde o conjunto de regras da aplicação fica disponível. Se eventualmente, precisar implementar
 outra aplicação em Swift, o Core já estará pronto.<br>
@@ -22,7 +23,6 @@ dados, serviços etc.<br>
 O Boundary é responsável por interligar as camadas externa com o Core.<br>
 O Presentation cuida da apresentação das telas, da interação e de como os elementos visuais são montados.<br>
 Os links para mais informações está presente nas referências.
-![alt text](https://herbertograca.files.wordpress.com/2018/11/070-explicit-architecture-svg.png)
 
 ### 3 - Melhorias
 
