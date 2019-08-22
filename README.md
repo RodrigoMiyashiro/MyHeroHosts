@@ -22,7 +22,7 @@ dados, serviços etc.<br>
 O Boundary é responsável por interligar as camadas externa com o Core.<br>
 O Presentation cuida da apresentação das telas, da interação e de como os elementos visuais são montados.<br>
 
-![alt text](https://drive.google.com/open?id=1E_hx5B4czRVFVhGJbrbPDlb_JFxJC8fYB86OMzZuAhg)
+![alt text](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/070-explicit-architecture-svg/)
 
 Os links para mais informações está presente nas referências.
 
