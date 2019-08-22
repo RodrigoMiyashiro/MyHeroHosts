@@ -1,9 +1,8 @@
-
 import UIKit
 
 extension UIImageView {
-    
-    func setImageFrom(url: URL, contentMode mode: UIViewContentMode = .scaleAspectFit) {
+
+    func setImageFrom(url: URL, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
         contentMode = mode
         URLSession.shared.dataTask(with: url) { data, response, error in
             guard
