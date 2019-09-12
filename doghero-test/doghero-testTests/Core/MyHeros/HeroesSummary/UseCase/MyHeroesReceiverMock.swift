@@ -1,6 +1,6 @@
 class MyHeroesReceiverMock: MyHeroesReceiver {
     var callsToReceiverMyHeroesSummary = 0
-    var callsToHandleErrorObtainingMyHeroesSummary = 0
+    var callsToHandleErrorObtainingMyHeroes = 0
 
     var obtainListMyHeroes: ListMyHeroes?
 
@@ -11,6 +11,6 @@ class MyHeroesReceiverMock: MyHeroesReceiver {
     }
 
     func handleErrorObtainingMyHeroes() {
-        self.callsToHandleErrorObtainingMyHeroesSummary += 1
+        self.callsToHandleErrorObtainingMyHeroes += 1
     }
 }
