@@ -30,8 +30,9 @@ class TableViewForMyHeroesSummary: NSObject, UITableViewDataSource, UITableViewD
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cellIdentifier = MyHeroesSummaryTableViewCell.identifier
         guard let cell: MyHeroesSummaryTableViewCell = self.configureCel(for: tableView,
-                                                                         identifier: MyHeroesSummaryTableViewCell.identifier,
+                                                                         identifier: cellIdentifier,
                                                                          indexPath: indexPath) else {
             return UITableViewCell()
         }
@@ -58,7 +59,9 @@ class TableViewForMyHeroesSummary: NSObject, UITableViewDataSource, UITableViewD
         return cell
     }
 
-    private func configureCel<T>(for tableView: UITableView, identifier: String, indexPath: IndexPath) -> T? where T: UITableViewCell {
+    private func configureCel<T>(for tableView: UITableView,
+                                 identifier: String,
+                                 indexPath: IndexPath) -> T? where T: UITableViewCell {
         return tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as? T
     }
 
@@ -68,8 +71,12 @@ class TableViewForMyHeroesSummary: NSObject, UITableViewDataSource, UITableViewD
 
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let frameTableView = tableView.frame
+        let initialPosition: CGFloat = 0
 
-        let headerView = UIView.init(frame: CGRect(x: 0, y: 0, width: frameTableView.width, height: self.heightForHeaderTableView))
+        let headerView = UIView.init(frame: CGRect(x: initialPosition,
+                                                   y: initialPosition,
+                                                   width: frameTableView.width,
+                                                   height: self.heightForHeaderTableView))
         headerView.backgroundColor = UIColor.grayForHeaderTableView
 
         let frameHeaderView = headerView.frame

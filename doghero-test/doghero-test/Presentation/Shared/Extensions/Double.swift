@@ -2,7 +2,7 @@ import UIKit
 
 extension Double {
     var formatPrice: NSMutableAttributedString {
-        let attributeForRegularFont = [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 16.0)]
+        let attributeForRegularFont = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 16.0)]
         let atrributeForBoldFont = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 16.0)]
         let attributedText = NSMutableAttributedString(string: "R$", attributes: attributeForRegularFont)
         attributedText.append(NSAttributedString(string: self.priceValue ?? "", attributes: atrributeForBoldFont))
