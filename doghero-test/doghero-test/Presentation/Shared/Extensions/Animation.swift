@@ -14,8 +14,8 @@ extension UIView {
                        options: .allowUserInteraction,
                        animations: {
             self.transform = CGAffineTransform(scaleX: 1.6, y: 1.6)
-        }) { _ in
+        }, completion: { _ in
             self.transform = CGAffineTransform.identity
-        }
+        })
     }
 }

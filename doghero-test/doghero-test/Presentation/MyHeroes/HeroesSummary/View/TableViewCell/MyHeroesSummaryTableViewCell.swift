@@ -121,5 +121,3 @@ class MyHeroesSummaryTableViewCell: UITableViewCell, CodeView, IdentifiableCell 
         self.addSubview(self.bookAgainButton)
     }
 }
-
-

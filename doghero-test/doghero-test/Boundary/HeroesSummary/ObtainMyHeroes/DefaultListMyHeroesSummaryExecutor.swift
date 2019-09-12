@@ -1,7 +1,6 @@
 import Foundation
 
 class DefaultListMyHeroesSummaryExecutor: ObtainListMyHeroesSummaryExecutor, MyHeroesReceiver {
-    private let semaphoro = DispatchSemaphore(value: 0)
     private var isSuccess = false
     private var obtainedListMyHeroes: ListMyHeroes?
 
@@ -12,8 +11,6 @@ class DefaultListMyHeroesSummaryExecutor: ObtainListMyHeroesSummaryExecutor, MyH
                                                        receiver: self)
 
         obtainListMyHeroesSummary.execute()
-
-        self.semaphoro.wait()
 
         guard let obtainedListMyHeroes = self.obtainedListMyHeroes, self.isSuccess else {
             throw ObtainListMyHeroesSummaryExecutorError.errorObtainingListMyHeroesSummary
@@ -34,6 +31,5 @@ class DefaultListMyHeroesSummaryExecutor: ObtainListMyHeroesSummaryExecutor, MyH
 
     private func resumeExecution(success: Bool) {
         self.isSuccess = success
-        self.semaphoro.signal()
     }
 }

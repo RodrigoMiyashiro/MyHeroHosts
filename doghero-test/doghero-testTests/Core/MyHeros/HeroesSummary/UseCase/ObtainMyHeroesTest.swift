@@ -37,7 +37,7 @@ class ObtainMyHeroesTest: XCTestCase {
 
         XCTAssert(providerMock.callsToAvailableMyHeroesSummary == 1,
                   "There should be at least 1 call to provider's available obtain my heroes summary.")
-        XCTAssert(self.receiver?.callsToHandleErrorObtainingMyHeroesSummary == 1,
+        XCTAssert(self.receiver?.callsToHandleErrorObtainingMyHeroes == 1,
                   "There should be at least 1 call to receiver's main method - Failure.")
     }
 }

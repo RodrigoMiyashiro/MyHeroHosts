@@ -11,10 +11,9 @@ extension UIImageView {
                 let data = data, error == nil,
                 let image = UIImage(data: data)
                 else { return }
-            DispatchQueue.main.async() {
+            DispatchQueue.main.async {
                 self.image = image
             }
             }.resume()
     }
-    
 }

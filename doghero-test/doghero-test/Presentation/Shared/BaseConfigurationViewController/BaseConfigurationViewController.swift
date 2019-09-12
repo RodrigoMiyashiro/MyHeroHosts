@@ -37,7 +37,7 @@ class BaseConfigurationViewController: UIViewController {
     func configureTitle(_ title: String) {
         let navigationBar = self.navigationController?.navigationBar
         let topItem = navigationBar?.topItem
-        
+
         topItem?.title = title
     }
 
