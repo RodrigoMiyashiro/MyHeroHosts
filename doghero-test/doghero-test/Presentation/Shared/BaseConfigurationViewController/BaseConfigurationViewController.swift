@@ -1,11 +1,3 @@
-//
-//  BaseConfigurationViewController.swift
-//  doghero-test
-//
-//  Created by Rodrigo Miyashiro on 20/08/19.
-//  Copyright © 2019 doghero. All rights reserved.
-//
-
 import UIKit
 
 class BaseConfigurationViewController: UIViewController {
